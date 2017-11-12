@@ -94,7 +94,7 @@ function reverseImageSearch(imageUrl, masterResponse, callback) {
 				response.imageTagsHTML = imgTags
                 response.imageLinks = imgLinks
 				callback(response)
-				masterResponse.send(response)
+				masterResponse.send(response.imageTagsHTML)
 			})
 		}
 		return response
