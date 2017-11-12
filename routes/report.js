@@ -28,7 +28,7 @@ router.post('/', uploadImage, function (req, res, next) {
 
         //var finalFilePath = __dirname +'../public' + newName
         //console.log('Path of file:', finalFilePath)
-        var finalFilePath = '/app/public/images/' + 'abc.jpg'
+        var finalFilePath = '/public/' + 'abc.jpg'
 
 
         try {
