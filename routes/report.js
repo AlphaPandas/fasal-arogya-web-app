@@ -14,7 +14,7 @@ router.get('/', function (req, res, next) {
     res.render('upload', {title: 'Express'})
 })
 
-const uploadImage = multer({dest: process.cwd() + 'public/temp/'}).single('image')
+const uploadImage = multer({dest: process.cwd() + '/public/temp/'}).single('image')
 
 router.post('/', uploadImage, function (req, res, next) {
     console.log('image', req.file);
@@ -28,7 +28,7 @@ router.post('/', uploadImage, function (req, res, next) {
 
         //var finalFilePath = __dirname +'../public' + newName
         //console.log('Path of file:', finalFilePath)
-        var finalFilePath = process.cwd() + 'public/images/' + 'abc.jpg'
+        var finalFilePath = process.cwd() + '/public/images/' + 'abc.jpg'
 
 
         try {
