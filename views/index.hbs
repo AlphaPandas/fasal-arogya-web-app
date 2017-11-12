@@ -1,9 +1,30 @@
 <!doctype html>
 <html>
 <head>
-<title>Handlebars demo</title> </head>
+    <title>HackInfinity Project</title>
+    <style>
+        body, html {
+            width:100%;
+            height:100%;
+            margin:0;
+            font-family: Arial;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+
 <body>
 <h1>HackInfinity Project</h1>
-<h3>Ready!</h3>
+<div class="container">
+    <form action="/reverse-image-search" method="GET" name="image">
+        <input type="text" name="url">
+        <input type="submit" value="Search">
+    </form>
+</div>
 </body>
 </html>
