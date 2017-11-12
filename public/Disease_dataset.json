@@ -1,0 +1,410 @@
+﻿[
+ {
+   field1: "Common name",
+   field2: "Scientific name",
+   field3: "Organism",
+   field4: "Affects",
+   field5: "Biosecurity program",
+   field6: "* Emerging/ exotic/ notifiable"
+ },
+ {
+   field1: "African citrus psyllid",
+   field2: "Trioza erytreae",
+   field3: "Insect",
+   field4: "All cultivars of Citrus. Murraya (native and ornamental forms of mock orange or orange jasmine) and a range of ornamentals.",
+   field5: "Surveillance",
+   field6: "Exotic"
+ },
+ {
+   field1: "Angular Leaf Spot",
+   field2: "Xanthomonas fragaria",
+   field3: "Bacterial plant pathogen",
+   field4: "All varieties of cultivated and some wild strawberry plants Fragaria sp.",
+   field5: "Surveillance",
+   field6: "Notifiable"
+ },
+ {
+   field1: "Ash whitefly",
+   field2: "Siphoninus phillyreae",
+   field3: "Insect",
+   field4: "Ornamentals and fruit crops",
+   field5: "Surveillance",
+   field6: "Emerging"
+ },
+ {
+   field1: "Asiatic citrus psyllid",
+   field2: "Diaphorina citri",
+   field3: "Insect",
+   field4: "All cultivars of Citrus. Murraya(native and ornamental forms of mock orange or orange jasmine) and Bergera koenigii(curry leaf). Also a range of ornamentals.",
+   field5: "Surveillance",
+   field6: "Exotic"
+ },
+ {
+   field1: "Bacterial heart rot and fruit collapse",
+   field2: "Dickeya spp.",
+   field3: "Bacterial plant pathogen",
+   field4: "Pineapple",
+   field5: "Planthealth",
+   field6: "Exotic"
+ },
+ {
+   field1: "Banana freckle",
+   field2: "Phyllosticta musarum and Guignardia musae",
+   field3: "Fungus",
+   field4: "Severe infection results in yellowing of the leaf, which withers and dies.",
+   field5: "Surveillance",
+   field6: "Exotic"
+ },
+ {
+   field1: "Black Sigatoka",
+   field2: "Mycosphaerella fijiensis",
+   field3: "Fungus",
+   field4: "Bananas",
+   field5: "Surveillance",
+   field6: "Exotic"
+ },
+ {
+   field1: "Branched broomrape",
+   field2: "Orobanche ramosa",
+   field3: "Parasitic weed",
+   field4: "Broadleaf crops, broadleaf weeds, native plants",
+   field5: "Surveillance",
+   field6: "Exotic"
+ },
+ {
+   field1: "Bunchy top",
+   field2: "Banana bunchy top virus",
+   field3: "Virus",
+   field4: "Bananas",
+   field5: "Surveillance",
+   field6: "Emerging, notifiable"
+ },
+ {
+   field1: "Citrus canker",
+   field2: "Xanthomonas axonopodis",
+   field3: "Bacteria",
+   field4: "Citrus",
+   field5: "Surveillance",
+   field6: "Exotic, notifiable"
+ },
+ {
+   field1: "Citrus fruit borer",
+   field2: "Citripestis sagittiferella",
+   field3: "Insect",
+   field4: "Citrus and other plants in the Rutaceae",
+   field5: "Surveillance",
+   field6: "Exotic"
+ },
+ {
+   field1: "Citrus greening(Huanglongbing)",
+   field2: "Candidatus liberobacter spp.",
+   field3: "Bacteria",
+   field4: "Citrus",
+   field5: "Surveillance",
+   field6: "Exotic, notifiable"
+ },
+ {
+   field1: "Citrus powderymildew",
+   field2: "Oidium tingitaninum andO. citri",
+   field3: "Fungus",
+   field4: "Citrus",
+   field5: "Surveillance",
+   field6: "Exotic"
+ },
+ {
+   field1: "Citrus tristeza virus",
+   field2: "Citrus tristeza closterovirus (CTV): mandarin stem pitting strains",
+   field3: "Virus",
+   field4: "Citrus",
+   field5: "Surveillance",
+   field6: "Exotic"
+ },
+ {
+   field1: "Cocoa pod borer",
+   field2: "Conopomorpha cramerella",
+   field3: "Insect of the family Gracillariidae",
+   field4: "Cocoa, rambutan and longan",
+   field5: "Plant Biosecurity and Product Integrity",
+   field6: "Emerging"
+ },
+ {
+   field1: "Cotton red spider mite or Glover mite",
+   field2: "Glover mite, Tetranychus gloveri",
+   field3: "Mite",
+   field4: "banana, cotton, beans, eggplant, beetroot, peas, sweet potato, palm trees, papaya, ornamentals, weed species",
+   field5: "No",
+   field6: "Endemic"
+ },
+ {
+   field1: "Cucumber green mottle mosaic virus",
+   field2: "-",
+   field3: "Virus",
+   field4: "Rockmelon, cucumber and watermelon",
+   field5: "No",
+   field6: "Exotic"
+ },
+ {
+   field1: "Electric ants",
+   field2: "Wasmannia auropunctata",
+   field3: "Ant",
+   field4: "Environment",
+   field5: "Eradication and control",
+   field6: "Exotic, notifiable"
+ },
+ {
+   field1: "European house borer",
+   field2: "Hylotrupes",
+   field3: "Insect",
+   field4: "Seasoned pine timber",
+   field5: "Surveillance",
+   field6: "Exotic"
+ },
+ {
+   field1: "Fire ants",
+   field2: "Solenopsis invicta",
+   field3: "Ant",
+   field4: "Environment",
+   field5: "Eradication and control",
+   field6: "Exotic, notifiable"
+ },
+ {
+   field1: "Fusarium head blight",
+   field2: "Caused by Fusarium species",
+   field3: "In wheat mainly Fusarium graminearumand F. pseudogram-inearum",
+   field4: "Wheat and barley",
+   field5: "No",
+   field6: "No; endemic and sporadic"
+ },
+ {
+   field1: "Fusarium stalk rot",
+   field2: "Caused by Fusarium species",
+   field3: "Mainly Fusarium thapsinumand F. andyaze",
+   field4: "Sorghum",
+   field5: "No",
+   field6: "No; endemic and common"
+ },
+ {
+   field1: "Giant African snail",
+   field2: "Achatina fulica",
+   field3: "Gastropod",
+   field4: "Environment",
+   field5: "Surveillance",
+   field6: "Exotic"
+ },
+ {
+   field1: "Grapevine leaf rust",
+   field2: "Phakopsora euvitis",
+   field3: "Fungus",
+   field4: "Grapes",
+   field5: "Surveillance",
+   field6: "Exotic, notifiable"
+ },
+ {
+   field1: "Lesser auger beetle",
+   field2: "Heterobostrychus aequalis",
+   field3: "Insect",
+   field4: "Timber",
+   field5: "Surveillance",
+   field6: "Exotic"
+ },
+ {
+   field1: "Little cherry disease",
+   field2: "-",
+   field3: "-",
+   field4: "-",
+   field5: "-",
+   field6: "-"
+ },
+ {
+   field1: "Mal secco",
+   field2: "Phoma tracheiphila",
+   field3: "Fungus",
+   field4: "Citrus",
+   field5: "Surveillance",
+   field6: "Exotic"
+ },
+ {
+   field1: "Mango leaf gall midge",
+   field2: "Prontarinia spp.",
+   field3: "Insect",
+   field4: "Mangoes",
+   field5: "Surveillance",
+   field6: "Emerging"
+ },
+ {
+   field1: "Mango leafhopper",
+   field2: "Idioscopus nitidulus and I. clypealis",
+   field3: "Insect",
+   field4: "Mangoes",
+   field5: "Surveillance",
+   field6: "Exotic, notifiable"
+ },
+ {
+   field1: "Mango malformation disease",
+   field2: "Fusarium mangiferae and other Fusarium spp.",
+   field3: "Fungus",
+   field4: "Mangoes",
+   field5: "Surveillance",
+   field6: "Exotic"
+ },
+ {
+   field1: "Mango stem miner",
+   field2: "Spulerina isonoma",
+   field3: "Insect",
+   field4: "Mangoes",
+   field5: "Surveillance",
+   field6: "Emerging"
+ },
+ {
+   field1: "Mango weevil",
+   field2: "Sternochetus frigidus",
+   field3: "Insect",
+   field4: "Mangoes",
+   field5: "Surveillance",
+   field6: "Exotic, notifiable"
+ },
+ {
+   field1: "Mediterranean fruit fly",
+   field2: "Ceratitis capitata",
+   field3: "Insect",
+   field4: "Fruit and vegetables, esp. stone fruit",
+   field5: "Surveillance",
+   field6: "Exotic"
+ },
+ {
+   field1: "Melon fly",
+   field2: "Bactrocera cucurbitae",
+   field3: "Insect",
+   field4: "Fruit and vegetables, esp. cucurbits and beans",
+   field5: "Surveillance",
+   field6: "Exotic, notifiable"
+ },
+ {
+   field1: "Melon thrips",
+   field2: "Thrips palmi",
+   field3: "Insect",
+   field4: "Fruit and vegetables",
+   field5: "Surveillance",
+   field6: "Emerging"
+ },
+ {
+   field1: "Myrtle rust",
+   field2: "Puccinia psidii",
+   field3: "Fungus",
+   field4: "Complete host range not known; however, it has been identified on Melaleuca, Syzygium and Eugenia sp.",
+   field5: "Surveillance",
+   field6: "Emerging"
+ },
+ {
+   field1: "Navel orangeworm",
+   field2: "Amyelois transitella",
+   field3: "Insect",
+   field4: "Citrus, English walnuts, pistachio, almonds and grapes",
+   field5: "Surveillance",
+   field6: "Exotic"
+ },
+ {
+   field1: "Oriental fruit fly",
+   field2: "Bactrocera papayae",
+   field3: "Insect",
+   field4: "Fruit and vegetables",
+   field5: "Surveillance",
+   field6: "Exotic, notifiable"
+ },
+ {
+   field1: "Panama disease",
+   field2: "Fusarium oxysprorum f. sp. cubense",
+   field3: "Fungus",
+   field4: "Bananas",
+   field5: "Surveillance",
+   field6: "Exotic, notifiable"
+ },
+ {
+   field1: "Papaya ringspot",
+   field2: "Virus type P (PRSV-P)",
+   field3: "Virus",
+   field4: "Papaya and cucurbits",
+   field5: "Control",
+   field6: "Emerging"
+ },
+ {
+   field1: "Pierce's disease and glassy winged sharpshooter",
+   field2: "Xylella fastidiosa",
+   field3: "Bacteria",
+   field4: "Grapes",
+   field5: "Surveillance",
+   field6: "Exotic, notifiable"
+ },
+ {
+   field1: "Plum pox (sharka)",
+   field2: "-",
+   field3: "Virus",
+   field4: "Stonefruit",
+   field5: "Surveillance",
+   field6: "Exotic, notifiable"
+ },
+ {
+   field1: "Potato cyst nematode",
+   field2: "Globodera rostochiensis (Wall.) Skarbilovich",
+   field3: "Nematode",
+   field4: "Potato plants and other members of the solanaceous plant family",
+   field5: "Surveillance",
+   field6: "Emerging, notifiable"
+ },
+ {
+   field1: "Red banded mango caterpillar",
+   field2: "Deanolis sublimbalis",
+   field3: "Insect",
+   field4: "Mangoes",
+   field5: "Surveillance and control",
+   field6: "Exotic, notifiable"
+ },
+ {
+   field1: "Silverleaf whitefly",
+   field2: "Bemisia tabacibiotype B",
+   field3: "Insect",
+   field4: "Range of ornamental and crop plants",
+   field5: "Surveillance",
+   field6: "Emerging"
+ },
+ {
+   field1: "Southern red mite",
+   field2: "Oligonychus ilicus",
+   field3: "Insect",
+   field4: "Range",
+   field5: "Surveillance",
+   field6: "Exotic"
+ },
+ {
+   field1: "Spiralling whitefly",
+   field2: "Aleurodicus dispersus",
+   field3: "Insect",
+   field4: "Range",
+   field5: "Surveillance",
+   field6: "Emerging"
+ },
+ {
+   field1: "Thrips and topovirus",
+   field2: "Thysanoptera : Thripidae",
+   field3: "Insect",
+   field4: "Vegetables and fruit",
+   field5: "Plant health pest and disease",
+   field6: "Emerging"
+ },
+ {
+   field1: "Vegetable leafminer",
+   field2: "Liriomyza sativae",
+   field3: "Insect",
+   field4: "Common horticultural crops and ornamental plant species, esp. tomatoes, pumpkins and beans",
+   field5: "Surveillance",
+   field6: "Emerging"
+ },
+ {
+   field1: "Yellow crazy ant",
+   field2: "Anoplolepis gracilipes",
+   field3: "Ant",
+   field4: "Environment",
+   field5: "Eradication and control",
+   field6: "Exotic"
+ }
+]
