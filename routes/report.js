@@ -14,7 +14,18 @@ router.get('/', function (req, res, next) {
     res.render('upload', {title: 'Express'})
 })
 
-const uploadImage = multer({dest: process.cwd() + '/public/temp/'}).single('image')
+var storage = multer.diskStorage({
+    destination: function (req, file, cb) {
+        cb(null, '/app/public/images/')
+    },
+    filename: function (req, file, cb) {
+        cb(null, file.originalname)
+    }
+})
+
+var upload = multer({ storage: storage })
+
+//var uploadImage = multer({dest: process.cwd() + '/public/temp/'}).single('image')
 
 router.post('/', uploadImage, function (req, res, next) {
     console.log('image', req.file);
@@ -28,7 +39,7 @@ router.post('/', uploadImage, function (req, res, next) {
 
         //var finalFilePath = __dirname +'../public' + newName
         //console.log('Path of file:', finalFilePath)
-        var finalFilePath = process.cwd() + '/public/images/' + 'abc.jpg'
+        var finalFilePath = newName
 
 
         try {
@@ -41,10 +52,10 @@ router.post('/', uploadImage, function (req, res, next) {
         var serverFileName = 'http://hack-seed.herokuapp.com/' + newName
         serverFileName = encodeURIComponent(serverFileName)
         console.log("serverFileName", serverFileName)
-        /*reverseImageSearch(serverFileName, res, function () {
+        reverseImageSearch(serverFileName, res, function () {
 
-        })*/
-        var request = require('request')
+        })
+/*        var request = require('request')
 
         var userAgent = 'Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11'
         var options = {
@@ -53,7 +64,7 @@ router.post('/', uploadImage, function (req, res, next) {
         }
         request(options, function (err, requestResponse, body) {
             res.send(body)
-        })
+        })*/
     })
 })
 
