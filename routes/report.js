@@ -23,7 +23,7 @@ var storage = multer.diskStorage({
     }
 })
 
-var uploadImage = multer({ storage: storage })
+var uploadImage = multer({ storage: storage }).single('image')
 
 //var uploadImage = multer({dest: process.cwd() + '/public/temp/'}).single('image')
 
