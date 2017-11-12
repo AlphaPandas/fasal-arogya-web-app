@@ -26,9 +26,9 @@ router.post('/', uploadImage, function (req, res, next) {
         var dotIndex = originalname.lastIndexOf('.')
         var newName = originalname.slice(0, dotIndex) + '_' + fileHash + originalname.slice(dotIndex)
 
-        var finalFilePath = __dirname +'../public' + newName
-        console.log(finalFilePath)
-        // var finalFilePath = '/app/public/images/' + newName
+        //var finalFilePath = __dirname +'../public' + newName
+        //console.log('Path of file:', finalFilePath)
+        var finalFilePath = '/' + newName
         fs.writeFileSync(finalFilePath, data);
         console.log("filePath", finalFilePath)
         var serverFileName = 'http://hack-seed.herokuapp.com/' + newName
