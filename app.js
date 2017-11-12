@@ -9,7 +9,6 @@ var index = require('./routes/index');
 var ris = require('./routes/reverse-image-search');
 var upload = require('./routes/upload');
 var report = require('./routes/report');
-var handlebars = require('handlebars');
 var app = express();
 
 // view engine setup
